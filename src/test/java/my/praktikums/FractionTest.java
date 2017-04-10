@@ -95,8 +95,8 @@ public class FractionTest {
 
     @Test
     public void test_twoFractions_divideResult (){
-        Fraction fractionOne = new Fraction(2,4);
+        Fraction fractionOne = new Fraction(3,4);
         Fraction fractionTwo = new Fraction(4,5);
-        Assert.assertEquals ((5+"/"+8), Fraction.divide(fractionOne,fractionTwo).simplify().toString());
+        Assert.assertEquals ((15+"/"+16), Fraction.divide(fractionOne,fractionTwo).simplify().toString());
     }
 }
